@@ -97,4 +97,4 @@ The following variables describe the data in the data set:
 79.     fBodyBodyGyroJerkMag-mean()
 80.      fBodyBodyGyroJerkMag-std()
 81. fBodyBodyGyroJerkMag-meanFreq()
-82.                        activity: Descriptive name of activity
+82.                        activity: Descriptive name of human activity
