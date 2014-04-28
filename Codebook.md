@@ -1,12 +1,12 @@
 The following variables describe the data in the data set:
 
 1.                  activity_labels: Activity labels for each of the activities
-							1.            WALKING
-							2.   WALKING_UPSTAIRS
-							3. WALKING_DOWNSTAIRS
-							4.            SITTING
-							5.           STANDING
-							6.             LAYING
+  1.            WALKING
+  2.   WALKING_UPSTAIRS
+  3. WALKING_DOWNSTAIRS
+  4.            SITTING
+  5.           STANDING
+  6.             LAYING
 2.                         subjects: ID of subject performing test
 3.                tBodyAcc-mean()-X
 4.                tBodyAcc-mean()-Y
