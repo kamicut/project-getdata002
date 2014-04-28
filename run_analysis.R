@@ -46,3 +46,6 @@ tidy <- cast(activity_labels + subjects ~ variable, data=melted, fun = mean)
 activities <- lapply(tidy$activity_labels, function(x) activity_labels[x,]$activity)
 activity <- unlist(activities)
 tidy <- cbind(tidy, activity)
+
+#Write to a file
+write.csv(tidy, "tidy.csv", row.names = F)
