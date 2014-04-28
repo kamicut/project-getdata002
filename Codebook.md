@@ -1,3 +1,7 @@
+The data represents data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+
+The data set is derived from experiments from 30 volunteers performing an activity such as WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. The experiments were then averaged over multiple variables and grouped by activity and volunteer.
+
 The following variables describe the data in the data set:
 
 1.                  activity_labels: Activity labels for each of the activities
@@ -7,7 +11,7 @@ The following variables describe the data in the data set:
   * 4 -           SITTING
   * 5 -          STANDING
   * 6 -           LAYING
-2.                         subjects: ID of subject performing test
+2.                         subjects: ID of subject performing tests
 3.                tBodyAcc-mean()-X
 4.                tBodyAcc-mean()-Y
 5.                tBodyAcc-mean()-Z
