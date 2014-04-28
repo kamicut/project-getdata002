@@ -40,6 +40,9 @@ names(activities) <- c("activity")
 mergedData$activity <- activities
 
 #Create average for each subject and activity
-#s <- split(mergedData, list(mergedData$activity, mergedData$subjects))
 library(reshape)
-tidy <- cast(value="activity", data=mergedData, fun = mean)
+melted <- melt(mergedData[c(-82)], id=c("activity_labels", "subjects"))
+tidy <- cast(activity_labels + subjects ~ variable, data=melted, fun = mean)
+activities <- lapply(tidy$activity_labels, function(x) activity_labels[x,]$activity)
+activity <- unlist(activities)
+tidy <- cbind(tidy, activity)
