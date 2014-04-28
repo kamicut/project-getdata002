@@ -12,6 +12,7 @@ source('run_analysis.R')
 
 This will:
 * Merge the test set and the training set
-* Extract 80 variables that are the mean and standard deviation for each measurement
+* Extract 79 variables that are the mean and standard deviation for each measurement
 * Group the experiments by human activity and volunteer
+* Add descriptive labels for each activity
 * Write to the file `tidy.csv`
